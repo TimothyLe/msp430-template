@@ -60,3 +60,7 @@ In mspdebug, you can load and run the program:
 Further support on using mspdebug is available on the [mspdebug
 homepage](http://mspdebug.sourceforge.net/) and in the [mspdebug
 manual](http://mspdebug.sourceforge.net/manual.html).
+
+## Sources
+1. [CS4101 Examples](http://www.cs.nthu.edu.tw/~king/courses/cs4101/2016/cs4101.html)  
+2. [MSP430 Microcontroller Basics](https://www.hutech.edu.vn/khoacntt/attachments/article/2809/MSP430%20Microcontroller%20Basics.pdf)  
