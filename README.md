@@ -64,3 +64,5 @@ manual](http://mspdebug.sourceforge.net/manual.html).
 ## Sources
 1. [CS4101 Examples](http://www.cs.nthu.edu.tw/~king/courses/cs4101/2016/cs4101.html)  
 2. [MSP430 Microcontroller Basics](https://www.hutech.edu.vn/khoacntt/attachments/article/2809/MSP430%20Microcontroller%20Basics.pdf)  
+3. [openMSP430](https://opencores.org/projects/openmsp430)  
+4. [Step by Step guide to msp430 programming](https://43oh.com/2010/11/a-step-by-step-guide-msp430-programming-under-linux/)  
