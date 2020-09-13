@@ -1,5 +1,5 @@
 /*
- * Example gpio.c file for MSP430
+ * Example testdriver_gpio.c file for MSP430
  * Configure I/O port of Launchpad for input and output
  */
 
