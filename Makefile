@@ -8,11 +8,13 @@
 # user configuration:
 #######################################
 # TARGET: name of the output file
-TARGET = main
+TARGET = test_usci2cmaster1
 # MCU: part number to build for
 MCU = msp430f6736
 # SOURCES: list of input source sources
-SOURCES = main.c
+SOURCES = test_usci2cmaster1.c
+# SRCDIR: Source to compile dir
+SRCDIR = test
 # INCLUDES: list of includes, by default, use Includes directory
 INCLUDES = -IInclude
 # OUTDIR: directory to use for output
@@ -63,7 +65,7 @@ $(OUTDIR)/%.hex: $(OUTDIR)/%.elf
 $(OUTDIR)/$(TARGET).elf: $(OBJECTS)
 	$(CC) $(OBJECTS) $(LDFLAGS) $(LIBS) -o $@
 
-$(OUTDIR)/%.o: src/%.c | $(OUTDIR)
+$(OUTDIR)/%.o: $(SRCDIR)/%.c | $(OUTDIR)
 	$(CC) -c $(CFLAGS) -o $@ $<
 
 # assembly listing
