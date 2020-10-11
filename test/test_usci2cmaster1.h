@@ -11,9 +11,10 @@
 #include <stdint.h> // Integers of defined sizes
 #include "LCDutils2.h" // TI exp board utility functions
 #define SLAVE_ADDRESS 0x48 // I2C address of thermometer
+// #include <msp430.h>
 #define LED P5OUT_bit.P5OUT_1 // Output pin for LED (active high)
 // Pin is output low by default
-void main ( void )
+void test_usci2cmaster1 ( void )
 {
     volatile uint16_t i; // Loop counter to stabilize FLL+
     int16_t Temperature; // Value received over I2C

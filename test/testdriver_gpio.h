@@ -7,7 +7,7 @@
 #define LED1 BIT0 	//P1.0 red LED
 #define B1 BIT3		//P1.3 btn
 
-int main() {
+void testdriver_gpio(void) {
     // halt watchdog
     WDTCTL = WDTPW + WDTHOLD;
     P1OUT |= LED1 + B1;

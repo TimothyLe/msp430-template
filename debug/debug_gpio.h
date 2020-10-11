@@ -8,7 +8,7 @@
 
 volatile unsigned int i,j;
 
-void main(void) {
+void debug_gpio(void) {
     // halt watchdog
     WDTCTL = WDTPW + WDTHOLD;
     P1OUT |= LED1 + B1;

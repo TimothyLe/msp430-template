@@ -6,7 +6,7 @@
 #include <msp430.h>
 #define LED1 BIT0 	//P1.0 red LED
 
-void main(void) {
+void testdriver_power(void) {
     WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer     
     P1DIR |= 0x01;      // set P1.0 as output
     TA0CCTL0 = CCIE;    // CCR0 interrupt enabled

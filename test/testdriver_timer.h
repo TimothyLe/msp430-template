@@ -6,7 +6,7 @@
 #include <msp430.h>
 #define LED1 BIT0 	//P1.0 red LED
 
-void main(void) {
+void testdriver_timer(void) {
     WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer 
     P1OUT = ~LED1;
     P1DIR = LED1;   // set P1.0 & 6 to outputs

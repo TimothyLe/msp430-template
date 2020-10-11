@@ -8,7 +8,7 @@
 //#include <io430x11x1.h> // specific device
 #define LED1 BIT0 	//P1.0 red LED
 
-void main(void) {
+void testdriver_interrupt(void) {
     WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer 
     P1OUT = LED1;
     P1DIR = LED1;

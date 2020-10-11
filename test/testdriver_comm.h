@@ -15,7 +15,7 @@ void TimerA_UART_init(void);
 void TimerA_UART_tx(unsigned char byte);
 void TimerA_UART_print(char *string);
 
-void main(void) {
+void testdriver_comm(void) {
     WDTCTL = WDTPW + WDTHOLD;   // Stop watchdog timer
     DCOCTL = 0x00;              // Set DCOCLK to 1MHz
     BCSCTL1 = CALBC1_1MHZ;

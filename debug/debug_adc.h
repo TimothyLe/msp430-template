@@ -57,7 +57,7 @@
 
 // #include <io430x20x2.h> // Header file for this device
 #include <intrinsics.h> // Intrinsic functions
-void main ( void )
+void debug_adc ( void )
 {
     WDTCTL = WDTPW | WDTHOLD; // Stop watchdog
     P2SEL = BIT6; // OUT1 on P2 .6; no crystal

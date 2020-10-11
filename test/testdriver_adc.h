@@ -8,7 +8,7 @@
 //#include <io430x11x1.h> // specific device
 #define LED1 BIT0 	//P1.0 red LED
 
-void main(void) {
+void testdriver_adc(void) {
     WDTCTL = WDTPW | WDTHOLD;   // stop watchdog timer 
     // H&S time 16x, interrupt enabled
     ADC10CTL0 = ADC10SHT_2 + ADC10ON + ADC10E;
